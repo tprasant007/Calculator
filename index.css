@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+}
+
+.main-container {
+  width: 26em;
+  margin: 3em auto;
+  padding: 1em 2em;
+  background-color: #293f52;
+}
+
+h1 {
+  font-size: 1.2rem;
+  color: #fff;
+  padding-bottom: 1em;
+}
+
+.display-box {
+  text-align: right;
+  background-color: rgba(144, 165, 166, 0.258);
+  color: #fff;
+  margin-bottom: 1em;
+  padding-right: 5px;
+}
+
+p#display {
+  font-size: 1.6rem;
+  height: 1.5em;
+}
+
+p.result {
+  font-size: 2.5rem;
+}
+
+.btn-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 10px;
+}
+
+button {
+  padding: 10px 14px;
+  font-size: 2rem;
+  box-shadow: 0 3px #82a0a368;
+  border: none;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+}
+
+button:active{
+  position: relative;
+  top: 2px;
+  box-shadow: none;
+}
+
+button.green {
+  background-color: #04aa6d;
+  color: #fff;
+}
+
+#clear {
+  grid-column: 1 / span 2;
+  background-color: rgba(244, 28, 28, 0.748);
+  color: white;
+}
+#equals {
+  grid-column: 3 / span 2;
+  background-color: #eb9534;
+  color: white;
+}
+
+p.bottom-text {
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  font-size: 10px;
+}
