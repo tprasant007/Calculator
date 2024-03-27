@@ -21,7 +21,7 @@ Calculator is a simple web application built with React. It provides basic arith
 
 ## Demo
 
-[Live Demo](https://tprasant007.github.io/Calculator/)
+[Live Demo](https://tprasant007-calculator.netlify.app/)
 
 ## How to Contribute
 
